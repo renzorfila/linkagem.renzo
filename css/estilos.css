@@ -18,10 +18,12 @@
     width: 80%;
     margin: auto;
     background-color: #ffffff;
+
 }
 body {
-    background-color: rgb(0, 213, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gray;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
 }
 #header {
     height: 200px;
@@ -29,4 +31,35 @@ body {
     width: 100%;
     background-color: rgb(206, 236, 255);
     background-image: linear-gradient(to bottom, var(--cor4), var(--cor0));
+    font-family: "Open Sans", sans-serif;
+}
+#nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+    background-color: #4169e1;
+}
+
+#nav a:hover{
+    background-color: #87CEFA;
+
+}
+#nav {
+    text-align: center;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+#content{
+    padding: 2%;
+}
+#nav .active {
+    background-color:blue ;
+}
+.logo {
+    float: left;
+    margin: 20px;
+
+}
+#logogeral {
+    background-color: white;
 }
