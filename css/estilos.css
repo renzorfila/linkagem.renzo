@@ -1,0 +1,32 @@
+/*
+#4169e1
+#1E90FF
+#00BFFF
+#87CEFA
+#ADD8E6
+*/
+
+:root{
+    --cor0: #4169e1;
+    --cor1: #1E90FF;
+    --cor2: #00BFFF;
+    --cor3: #87CEFA;
+    --cor4: #ADD8E6;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+}
+body {
+    background-color: rgb(0, 213, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#header {
+    height: 200px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(206, 236, 255);
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor0));
+}
