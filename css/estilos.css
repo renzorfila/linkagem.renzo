@@ -25,19 +25,25 @@ body {
     font-family: "Montserrat", sans-serif;
     text-align: justify;
 }
-#header {
-    height: 200px;
+#header{
+    height: 150px;
     text-align: center;
     width: 100%;
     background-color: rgb(206, 236, 255);
     background-image: linear-gradient(to bottom, var(--cor4), var(--cor0));
-    font-family: "Open Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
+
+#header h1{
+    padding: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
 #nav a{
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 20px;
-    background-color: #4169e1;
+    padding: 25px;
+    background-color: #0080ff;
 }
 
 #nav a:hover{
@@ -47,6 +53,7 @@ body {
 #nav {
     text-align: center;
     font-family: "Protest Guerrilla", sans-serif;
+  
 }
 
 #content{
@@ -58,8 +65,20 @@ body {
 .logo {
     float: left;
     margin: 20px;
-
+    color: white;
 }
-#logogeral {
-    background-color: white;
+#imac {
+    margin-left: 17%;
+}
+#garagem {
+    margin-left: 25%;
+}
+#iphone {
+    margin-left: 40%;
+}
+
+#footer{
+    padding: 5%;
+    text-align: center;
+    background-color: #0080ff;
 }
