@@ -24,6 +24,7 @@ body {
     background-color: gray;
     font-family: "Montserrat", sans-serif;
     text-align: justify;
+    overflow-x: hidden;
 }
 #header{
     height: 150px;
@@ -58,23 +59,32 @@ body {
 
 #content{
     padding: 2%;
+    line-height: 1.5;
 }
 #nav .active {
     background-color:blue ;
 }
 .logo {
-    float: left;
+    float: auto;
     margin: 20px;
-    color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
 }
 #imac {
-    margin-left: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #garagem {
-    margin-left: 25%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 #iphone {
-    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #footer{
@@ -82,4 +92,33 @@ body {
     text-align: center;
     background-color: #0080ff;
     margin-top: 2%;
+    color: white;
 }
+
+.tabela {
+    text-align: center;
+}
+.tabela1 {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+
+.tabela1, .tabela1 th, .tabela1 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tabela1 th, .tabela1 td {
+    padding: 1%;
+}
+
+.tabela1 tr:nth-child(even) {
+    background-color: #ddd;
+  }
+
+  .tabela1 th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+  }
